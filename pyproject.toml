@@ -1,0 +1,9 @@
+[project]
+name = "localpersonalai"
+version = "0.1.0"
+description = "Local-first personal AI agent framework"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+localai = "localai.cli:main"
